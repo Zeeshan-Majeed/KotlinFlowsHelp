@@ -7,6 +7,6 @@
 > 4. Shared Flow
 
 ### Dependencies 
----
-implementation("androidx.lifecycle:lifecycle-viewmodel-ktx:2.8.4")
-l̥---
+```
+    implementation("androidx.lifecycle:lifecycle-viewmodel-ktx:2.8.4")
+```
