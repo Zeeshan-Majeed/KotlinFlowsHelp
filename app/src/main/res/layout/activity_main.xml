@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center_horizontal"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tv_livedata"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="?actionBarSize"
+        android:text="LiveData"
+        android:textSize="14sp" />
+
+    <Button
+        android:id="@+id/btn_livedata"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10sp"
+        android:text="liveData"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/tv_state_flow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20sp"
+        android:text="State Flow"
+        android:textSize="14sp" />
+
+    <Button
+        android:id="@+id/btn_State_flow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10sp"
+        android:text="State Flow"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/tv_shared_flow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20sp"
+        android:text="Shared Flow"
+        android:textSize="14sp" />
+
+    <Button
+        android:id="@+id/btn_Shared_flow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10sp"
+        android:text="Shared Flow"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/tv_simple_flow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20sp"
+        android:text="Simple Flow"
+        android:textSize="14sp" />
+
+    <Button
+        android:id="@+id/btn_Simple_flow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10sp"
+        android:text="Simple Flow"
+        android:textSize="14sp" />
+
+
+</LinearLayout>
